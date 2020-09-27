@@ -1,0 +1,40 @@
+@import '../../main-style.scss';
+
+.top-bar{ 
+    display: flex;
+    width: 100%;
+    height: 61px;
+    background: linear-gradient(45deg, rgb(126, 107, 180), rgb(148, 177, 223));
+
+    //keep text centered horizontally, vertically
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-family: Lato;
+        font-size: 25px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $dark-blue;
+    }
+} 
+
+.total-budget{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background: $dark-blue;
+
+    justify-content: center;
+    align-items: center;
+    
+    h3{
+        font-family: Exo;
+        font-size: 61px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $light-grey;
+    }
+}

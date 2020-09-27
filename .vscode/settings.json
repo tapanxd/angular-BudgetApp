@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 13,
+    "window.zoomLevel": -0.5,
+    "C_Cpp.default.compilerPath": "",
+    "terminal.integrated.automationShell.windows": "-ExecutionPolicy", "Bypass"
+}
