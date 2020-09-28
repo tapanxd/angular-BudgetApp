@@ -3,20 +3,35 @@
 .root{
     display: flex;
     width: 100%;
+    position: relative;
+
+    .x-icon-button{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: red;
+        right: -10px;
+        top: -10px;
+        
+    }
 }
 
 .budget-item{
     display: flex;
     width: 100%;
-    background-color: $light-grey;
+    background-color: darken($light-grey, 3%);
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
 
     .description{
+        display: flex;
         flex-grow: 1;
         font-size: 18px;
         margin-left: 10px;
+
+        align-items: center;
     }
 
     .amount{
@@ -27,7 +42,7 @@
 
 .income{
     p{
-        color: darken($green, $amount: 5%);
+        color: darken($green, $amount: 6%);
     }
     .amount{
         background-color: $light-green;
