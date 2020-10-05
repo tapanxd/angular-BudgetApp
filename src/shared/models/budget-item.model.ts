@@ -2,5 +2,5 @@ export class BudgetItem{
     description: string;
     amount: number;
 
-    constructor(public description: string, public amount: number){ }
+    constructor(public Description: string, public Amount: number){ }
 }
