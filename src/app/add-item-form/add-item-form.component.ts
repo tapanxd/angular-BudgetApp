@@ -8,6 +8,7 @@ import { BudgetItem } from 'src/shared/models/budget-item.model';
   styleUrls: ['./add-item-form.component.scss']
 })
 export class AddItemFormComponent implements OnInit {
+
   @Input() item: BudgetItem = new BudgetItem('', null);
   @Output() formSubmit: EventEmitter<BudgetItem> = new EventEmitter<BudgetItem>();
 

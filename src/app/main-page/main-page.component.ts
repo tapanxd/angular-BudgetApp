@@ -8,7 +8,7 @@ import { BudgetItem } from 'src/shared/models/budget-item.model';
 })
 export class MainPageComponent implements OnInit {
 
-  budgetItem: BudgetItem[] = new Array<BudgetItem>();
+  budgetItems: BudgetItem[] = new Array<BudgetItem>();
 
   constructor() { }
 
@@ -16,7 +16,7 @@ export class MainPageComponent implements OnInit {
   }
 
   addItem(newItem: BudgetItem){
-
+    this.budgetItems.push(newItem);
   }
 
 }
